@@ -4,23 +4,6 @@ Materiais de estudo da turma da Imersão Engenharia de Dados — setembro/2026, 
 
 A VoeBem Analytics é a consultoria fictícia usada no projeto: o objetivo é investigar atrasos, cancelamentos e pontualidade dos voos. Este repositório é uma iniciativa colaborativa da turma, sem vínculo oficial com a Alura.
 
-## Primeira vez por aqui?
-
-Siga o **[Comece aqui — guia para iniciantes](docs/comece-aqui.md)**: do download dos materiais à primeira consulta. O percurso é pelo navegador, com os dados incluídos e sem instalar Python ou Git no computador.
-
-**Estado do material:** preparado para apoiar as aulas. A execução completa em um workspace novo ainda precisa ser validada.
-
-## Estrutura
-
-- `dados/`: 15 CSVs da ANAC incluídos no material original: 12 meses de VRA (agosto/2025 a julho/2026) e três cadastros de referência.
-- `notebooks/`: ingestão Bronze, transformação Silver e governança Gold. Os arquivos `.py` estão no formato de notebooks Databricks.
-- `pipelines/qualidade/`: regras de qualidade e quarentena para diagnóstico.
-- `sql/gold/`: dimensão de aeroportos, fato de voos e tabela de consumo (OBT).
-- `sql/gabarito/`: consultas para as perguntas de negócio.
-- `scripts/`: download dos dados e utilitários opcionais de execução e Genie.
-- `genie/`: instruções e configuração de exemplo para perguntas em linguagem natural.
-- `docs/`: fontes, perguntas de negócio e registro de aceitação fornecido no material original.
-
 ## Preparação
 
 A instalação local é necessária somente se você optar pelos scripts de terminal. Use Python 3.10 ou superior para esses scripts. Eles utilizam a biblioteca padrão. Os notebooks dependem do ambiente Spark/Databricks e não devem ser executados como scripts Python locais.
